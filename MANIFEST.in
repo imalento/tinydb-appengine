@@ -1,0 +1,3 @@
+include LICENSE
+exclude test/test_storages.py
+exclude MANIFEST.in
