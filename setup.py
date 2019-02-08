@@ -1,12 +1,13 @@
 from setuptools import setup
 
-with open('README.rst') as file:
+with open('README.md') as file:
     long_description = file.read()
 
 setup(name='tinydb-appengine',
-      version='1.0.0',
+      version='1.0.2',
       description='TinyDB Extension for AppEngine',
       long_description=long_description,
+      long_description_content_type='text/markdown',
       author='Imalento',
       author_email='imalento2@gmail.com',
       url='https://github.com/imalento/tinydb-appengine',

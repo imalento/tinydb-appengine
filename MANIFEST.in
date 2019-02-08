@@ -1,3 +1,6 @@
 include LICENSE
+include README.md
 exclude test/test_storages.py
 exclude MANIFEST.in
+exclude tinydb_appengine.egg-info/.DS_Store
+tinydb_appengine-1.0.1.dist-info/.DS_Store
