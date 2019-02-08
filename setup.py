@@ -4,15 +4,15 @@ with open('README.md') as file:
     long_description = file.read()
 
 setup(name='tinydb-appengine',
-      version='1.0.2',
+      version='1.0.6',
       description='TinyDB Extension for AppEngine',
       long_description=long_description,
       long_description_content_type='text/markdown',
       author='Imalento',
       author_email='imalento2@gmail.com',
       url='https://github.com/imalento/tinydb-appengine',
-      packages=['tinydb_appengine'],
-      install_requires=['tinydb'],
+      packages=['tinydb_appengine', ],
+      # install_requires=['tinydb', ],
       license='MIT',
       keywords='database nosql tinydb appengine',
       classifiers=[
